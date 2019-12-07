@@ -7,7 +7,7 @@ import pandas as pd
 import numpy as np
 import featuretools as ft
 from featuretools.primitives import make_agg_primitive, make_trans_primitive
-from featuretools.variable_types import Text, Numeric, Categorical, Boolean, Index, DatetimeIndex, Datetime, TimeIndex, Discrete, Ordinal
+from featuretools.variable_types import Text, Numeric, Categorical, Boolean, Index, DatetimeTimeIndex, Datetime, TimeIndex, Discrete, Ordinal
 
 def enc(col):
 
